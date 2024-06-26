@@ -1,16 +1,17 @@
 // Maya Thompson
 // CS 1, Section # 0107
 // Assignment #2, Problem #1
-// Summary: 
+// Summary: This program calculates a users salary based on number of hours worked and the user's hourly pay rate. 
 
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
 
   // Declare variables
-  int hours = 0;
+  double hours = 0;
   double rate = 0;
   double salary = 0;
   
@@ -34,6 +35,6 @@ int main() {
   }
 
   // Output the user's salary to the screen
-  cout << "Your salary for the week is: $" << salary << endl;
+  cout << "Your salary for the week is: $" << setprecision(2) << fixed << salary << endl;
 
 }
