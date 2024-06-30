@@ -13,7 +13,6 @@ int main() {
 // Declare variables
 char petType = 'A';
 char neutered;
-double fee = 0;
 
      cout << "Pet Insurance Program \n \n";
 
