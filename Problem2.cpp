@@ -54,4 +54,6 @@ cout << "Your original deposit was: $" << setprecision(2) << fixed << deposit <<
      << "Your new balance is $" << balance << endl;
 
 
+  return 0;
+
 }

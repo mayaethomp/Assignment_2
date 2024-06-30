@@ -11,27 +11,54 @@ using namespace std;
 int main() {
 
 // Declare variables
-char ch_pet = 'A';
-bool neutered;
+char petType = 'A';
+char neutered;
 double fee = 0;
 
-cout << "Pet Insurance Program \n \n";
+     cout << "Pet Insurance Program \n \n";
 
-// Ask the user to enter the first letter of the type of pet they would like to insure
-cout << "Please enter the first letter of the type of pet you would like to insure: \n" 
+// Prompt the user to enter the first letter of the type of pet they would like to insure
+     
+     cout << "Please enter the first letter of the type of pet you would like to insure: \n" 
      << "Dog \n" << "Cat \n" << "Bird \n" << "Reptile \n";
 
-cout << "Animal Type: \n";
-cin >> ch_pet;
+     cout << "Animal Type: \n";
+     cin >> petType;
 
-// Ask the user if their pet has been neutered with a y or n
-cout << "Has the animal been neutered \n";
-cin >> neutered;
+// Use a switch statement to determine pet insurance fee
 
-// Determine the user's insurance fee
+     switch (petType) {
 
-// Output the user's insurance price to the screen, including their pet type and neutered/non-neutered
-cout << "The fee to insure your " << neutered << " " << ch_pet << " is " << fee;
+          case 'D':
+               cout << "Is your dog neutered: Y / N \n";
+               cin >> neutered;
+                    if (neutered == 'Y') {
+                         cout << "The fee to insure your neutered Dog is $50";
+                    } else if (neutered == 'N') {
+                         cout << "The fee to insure your non-neutered Dog is $80";
+                    }
+               break;
+          case 'C':
+               cout << "Is your cat spayed: Y / N \n";
+               cin >> neutered;
+                    if (neutered == 'Y') {
+                         cout << "The fee to insure your spayed Cat is $40";
+                    } else if (neutered == 'N') {
+                         cout << "The fee to insure your non-spayed Cat is $60";
+                    }
+               break;
+          case 'B':
+               cout << "There is no cost to insure your Bird \n";
+               break;
+          case 'R':
+               cout << "There is no cost to insure your Reptile \n";
+               break;
+          default:
+               cout << "Invalid data - no fee calculated";
+
+     }
+
+     return 0;
 
 
 }
