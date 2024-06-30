@@ -37,6 +37,6 @@ int main() {
   // Output the user's salary to the screen
   cout << "Your salary for the week is: $" << setprecision(2) << fixed << salary << endl;
 
-  return
+  return 0;
 
 }
