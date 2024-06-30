@@ -1,7 +1,7 @@
 // Maya Thompson
 // CS 1, Section # 0107
 // Assignment #2, Problem #3
-// Summary: 
+// Summary: This program outputs a user's pet insurance fee based on the user's input data regarding their pet's information
 
 #include <iostream>
 #include <iomanip>

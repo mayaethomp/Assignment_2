@@ -1,7 +1,7 @@
 // Maya Thompson
 // CS 1, Section # 0107
 // Assignment #2, Problem #1
-// Summary: This program calculates a users salary based on number of hours worked and the user's hourly pay rate. 
+// Summary: This program calculates a users salary based on user's number of hours worked and hourly pay rate. 
 
 #include <iostream>
 #include <iomanip>
@@ -17,12 +17,12 @@ int main() {
   
   cout << "Salary with Overtime Program \n \n";
 
-  // Prompt the user to enter the number of hours worked and store input
+  // Ask user to enter the number of hours worked and store input
 
   cout << "Please enter the number of hours worked: \n";
   cin >> hours;
 
-  // Prompt the user to input their hourly rate and store input
+  // Ask user to input their hourly rate and store input
 
   cout << "Please enter the hourly rate: \n";
   cin >> rate;
