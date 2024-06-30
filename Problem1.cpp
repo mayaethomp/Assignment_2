@@ -17,12 +17,12 @@ int main() {
   
   cout << "Salary with Overtime Program \n \n";
 
-  // Ask user to enter the number of hours worked and store input
+  // Prompt the user to enter the number of hours worked and store input
 
   cout << "Please enter the number of hours worked: \n";
   cin >> hours;
 
-  // Ask user to input their hourly rate and store input
+  // Prompt the user to input their hourly rate and store input
 
   cout << "Please enter the hourly rate: \n";
   cin >> rate;
