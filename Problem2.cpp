@@ -39,7 +39,7 @@ if (years >= 5) {
 } else if (years <2 && years >= 1) {
   rate = 0.02;
 } else if (years < 1) {
-  rate = 0.014;
+  rate = 0.015;
 }
 
 // Compute the interest earned based on the user's input 
