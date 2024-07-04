@@ -31,18 +31,18 @@ char neutered;
           case 'D':
                cout << "Is your dog neutered: Y / N \n";
                cin >> neutered;
-                    if (neutered == 'Y') {
+                    if (neutered == 'Y' || 'y') {
                          cout << "The fee to insure your neutered Dog is $50";
-                    } else if (neutered == 'N') {
+                    } else if (neutered == 'N' || 'n') {
                          cout << "The fee to insure your non-neutered Dog is $80";
                     }
                break;
           case 'C':
                cout << "Is your cat spayed: Y / N \n";
                cin >> neutered;
-                    if (neutered == 'Y') {
+                    if (neutered == 'Y' || 'y') {
                          cout << "The fee to insure your spayed Cat is $40";
-                    } else if (neutered == 'N') {
+                    } else if (neutered == 'N' || 'n') {
                          cout << "The fee to insure your non-spayed Cat is $60";
                     }
                break;
